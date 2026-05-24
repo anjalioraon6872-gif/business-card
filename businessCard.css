@@ -1,0 +1,50 @@
+
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #0038a8;
+    color: #d60270;
+    border-bottom: 6px solid #9b4f96;
+    text-shadow: 0 0 3px #4361ee;
+    border-radius: 3px;
+    /* border-left: 2px solid #073b4c;
+    border-right: 2px solid #073b4c;
+    border-top: 2px solid #073b4c; */
+    text-align: center;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+
+}
+@keyframes slideIn {
+0% { opacity: 0; transform: translateY(20px); }
+100% { opacity: 1; transform: translateY(0); }
+}
+.card {
+animation: slideIn 2s ease forwards;
+}
+/* .card:hover {
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+} */
+
+body{
+    margin: 20px;
+    font-family: georgia ;
+}
+
+
+    /* border:1px dotted rgb(171, 5, 189); */
+    /* text-align: center;
+    border-radius: 4px; */
+    
+
+
+.avatar{
+    width: 170px;
+    border-radius: 3px;
+}
+h3:hover{
+    color:#7209b7;
+}
